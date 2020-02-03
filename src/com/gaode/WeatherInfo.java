@@ -1,12 +1,9 @@
 package src.com.gaode;
 
-import src.com.db.InsertDatate;
 import src.com.globalinterface.GaoDeInterface;
 import src.com.network.JsoupNet;
 import org.json.JSONObject;
 import org.json.JSONArray;
-
-import java.util.Scanner;
 
 /**
  * 获取天气信息
@@ -19,7 +16,7 @@ public class WeatherInfo {
 
     public static String getWeatherInfo(String cityName, String adcode) {
         String weather = "";
-        String weatherInfo = cityName;
+        String weatherInfo = cityName + ":";
         String key = GaoDeInterface.KEY;
         String city = adcode;
         String extensions = "all";
@@ -40,7 +37,7 @@ public class WeatherInfo {
             JSONObject jsonInfo = jsonArray.getJSONObject(i);
             JSONArray jsonCasts = jsonInfo.getJSONArray("casts");
             for (int j = 0; j < jsonCasts.length(); j++) {
-                if (j == 1) {
+                if (j == 2) {
                     break;
 
                 }
@@ -50,7 +47,7 @@ public class WeatherInfo {
                 String daytemp = jsonObjectCasts.getString("daytemp");//白天温度
                 String nighttemp = jsonObjectCasts.getString("nighttemp");// 晚上温度
                 if (!weather.equals("")) {
-                    weatherInfo = weatherInfo + ":" + date + "," + dayweather + "," + "最低气温" + nighttemp
+                    weatherInfo = weatherInfo + date + "," + dayweather + "," + "最低气温" + nighttemp
                             + "度，" + "最高气温" + daytemp + "度。";
 
                 }
@@ -65,8 +62,8 @@ public class WeatherInfo {
             }
         }
         // 错误判断，实现代码
-        if(weatherInfo.equals(cityName)){
-            weatherInfo="查无结果！";
+        if (weatherInfo.equals(cityName)) {
+            weatherInfo = "查无结果！";
 
         }
         return weatherInfo;

@@ -3,8 +3,6 @@ package src.com.db;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 import java.io.File;
 import java.io.InputStream;
@@ -15,13 +13,7 @@ import java.io.BufferedReader;
 public class InsertDatate {
 
     /*
-     * 存储天气信息
-     * tb_WeatherInfo
-     * date varchar(255),dayweather varchar(255),daytemp varchar(255),nighttemp varchar(255)
-     * date:日期
-     * dayweather:白天天气现象
-     * daytemp:白天温度
-     * nighttemp:晚上温度
+     *
      *
      */
 
