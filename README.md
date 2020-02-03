@@ -21,8 +21,8 @@ Ethan：Do not waste it,Do not waste your life.（那就好好珍惜它，别浪
 
 |版本|更新说明|
 |---|---|
-|Version: 1.0|Ethan机器人的基础能力搭建来自于PrivateJarvis项目|
-|Version: 2.0|实现Ethan可提供三种服务能力：1(支持天气查询)，2(支持可根据所设置的提醒时间，定时发送微信消息)，3(支持可关闭提醒服务)|
+|Version: 1.0|Ethan机器人的基础能力构建来自于PrivateJarvis项目|
+|Version: 2.0|实现Ethan可提供三种服务能力：<br> 1(支持天气查询) <br> 2(支持可根据所设置的提醒时间，定时发送微信消息) <br> (支持可关闭提醒服务)|
 
 ### OpenApi
 
