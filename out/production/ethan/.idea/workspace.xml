@@ -6,7 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="316c474c-552f-49c7-8260-f9c53204b1af" name="Default Changelist" comment="" />
+    <list default="true" id="316c474c-552f-49c7-8260-f9c53204b1af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/gaode/Distance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ethan/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ethan/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ethan/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ethan/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/globalinterface/GaoDeInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/globalinterface/GaoDeInterface.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +48,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Dialogue">
+  <component name="RunManager" selected="Application.Distance">
     <configuration name="Dialogue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.com.service.Dialogue" />
       <module name="ethan" />
@@ -57,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessageContent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.com.weixin.MessageContent" />
+    <configuration name="Distance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.com.gaode.Distance" />
       <module name="ethan" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.com.weixin.*" />
+          <option name="PATTERN" value="src.com.gaode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectDatate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.com.db.SelectDatate" />
+    <configuration name="MessageContent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.com.weixin.MessageContent" />
       <module name="ethan" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.com.db.*" />
+          <option name="PATTERN" value="src.com.weixin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Distance" />
         <item itemvalue="Application.Dialogue" />
+        <item itemvalue="Application.WeatherInfo" />
         <item itemvalue="Application.TimingDevice" />
         <item itemvalue="Application.MessageContent" />
-        <item itemvalue="Application.WeatherInfo" />
-        <item itemvalue="Application.SelectDatate" />
       </list>
     </recent_temporary>
   </component>
@@ -166,46 +171,46 @@
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state x="100" y="123" width="1720" height="778" key="DiffContextDialog/0.23.1920.978@0.23.1920.978" timestamp="1580606600808" />
-    <state width="1878" height="413" key="GridCell.Tab.0.bottom" timestamp="1580700070260">
+    <state width="1398" height="323" key="GridCell.Tab.0.bottom" timestamp="1580723472300">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1398" height="325" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1580629567986" />
-    <state width="1878" height="413" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1580700070260" />
-    <state width="1878" height="413" key="GridCell.Tab.0.center" timestamp="1580700070259">
+    <state width="1398" height="323" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1580717816754" />
+    <state width="1398" height="323" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1580723472300" />
+    <state width="1398" height="323" key="GridCell.Tab.0.center" timestamp="1580723472299">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1398" height="325" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1580629567986" />
-    <state width="1878" height="413" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1580700070259" />
-    <state width="1878" height="413" key="GridCell.Tab.0.left" timestamp="1580700070259">
+    <state width="1398" height="323" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1580717816752" />
+    <state width="1398" height="323" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1580723472299" />
+    <state width="1398" height="323" key="GridCell.Tab.0.left" timestamp="1580723472298">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1398" height="325" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1580629567985" />
-    <state width="1878" height="413" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1580700070259" />
-    <state width="1878" height="413" key="GridCell.Tab.0.right" timestamp="1580700070260">
+    <state width="1398" height="323" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1580717816751" />
+    <state width="1398" height="323" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1580723472298" />
+    <state width="1398" height="323" key="GridCell.Tab.0.right" timestamp="1580723472299">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1398" height="325" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1580629567986" />
-    <state width="1878" height="413" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1580700070260" />
-    <state width="1878" height="413" key="GridCell.Tab.1.bottom" timestamp="1580700070262">
+    <state width="1398" height="323" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1580717816753" />
+    <state width="1398" height="323" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1580723472299" />
+    <state width="1398" height="323" key="GridCell.Tab.1.bottom" timestamp="1580723472301">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1398" height="325" key="GridCell.Tab.1.bottom/0.23.1440.798@0.23.1440.798" timestamp="1580629567988" />
-    <state width="1878" height="413" key="GridCell.Tab.1.bottom/0.23.1920.978@0.23.1920.978" timestamp="1580700070262" />
-    <state width="1878" height="413" key="GridCell.Tab.1.center" timestamp="1580700070261">
+    <state width="1398" height="323" key="GridCell.Tab.1.bottom/0.23.1440.798@0.23.1440.798" timestamp="1580717816757" />
+    <state width="1398" height="323" key="GridCell.Tab.1.bottom/0.23.1920.978@0.23.1920.978" timestamp="1580723472301" />
+    <state width="1398" height="323" key="GridCell.Tab.1.center" timestamp="1580723472300">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1398" height="325" key="GridCell.Tab.1.center/0.23.1440.798@0.23.1440.798" timestamp="1580629567987" />
-    <state width="1878" height="413" key="GridCell.Tab.1.center/0.23.1920.978@0.23.1920.978" timestamp="1580700070261" />
-    <state width="1878" height="413" key="GridCell.Tab.1.left" timestamp="1580700070261">
+    <state width="1398" height="323" key="GridCell.Tab.1.center/0.23.1440.798@0.23.1440.798" timestamp="1580717816756" />
+    <state width="1398" height="323" key="GridCell.Tab.1.center/0.23.1920.978@0.23.1920.978" timestamp="1580723472300" />
+    <state width="1398" height="323" key="GridCell.Tab.1.left" timestamp="1580723472300">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1398" height="325" key="GridCell.Tab.1.left/0.23.1440.798@0.23.1440.798" timestamp="1580629567986" />
-    <state width="1878" height="413" key="GridCell.Tab.1.left/0.23.1920.978@0.23.1920.978" timestamp="1580700070261" />
-    <state width="1878" height="413" key="GridCell.Tab.1.right" timestamp="1580700070261">
+    <state width="1398" height="323" key="GridCell.Tab.1.left/0.23.1440.798@0.23.1440.798" timestamp="1580717816755" />
+    <state width="1398" height="323" key="GridCell.Tab.1.left/0.23.1920.978@0.23.1920.978" timestamp="1580723472300" />
+    <state width="1398" height="323" key="GridCell.Tab.1.right" timestamp="1580723472300">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1398" height="325" key="GridCell.Tab.1.right/0.23.1440.798@0.23.1440.798" timestamp="1580629567987" />
-    <state width="1878" height="413" key="GridCell.Tab.1.right/0.23.1920.978@0.23.1920.978" timestamp="1580700070261" />
+    <state width="1398" height="323" key="GridCell.Tab.1.right/0.23.1440.798@0.23.1440.798" timestamp="1580717816756" />
+    <state width="1398" height="323" key="GridCell.Tab.1.right/0.23.1920.978@0.23.1920.978" timestamp="1580723472300" />
     <state x="817" y="167" key="SettingsEditor" timestamp="1580642294405">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
