@@ -27,7 +27,9 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="b9b7596a-afe4-4769-8505-965598d7cf31">
-      <console name="Connection" type="STANDARD" schema="" session="Main" />
+      <console name="Connection" type="STANDARD" schema="" session="Main"><![CDATA[INSERT INTO tb_Hospital VALUES ('北京 ','北京美莱医疗美容医院 ','莆田系 ');
+
+select * from tb_Hospital;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">

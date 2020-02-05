@@ -24,6 +24,7 @@ Ethan：Do not waste it,Do not waste your life.（那就好好珍惜它，别浪
 |Version: 1.0|Ethan机器人的基础能力构建来自于PrivateJarvis项目|
 |Version: 2.0|实现Ethan可提供三种服务能力：<br> 1(支持天气查询) <br> 2(支持可根据所设置的提醒时间，定时发送微信消息) <br> (支持可关闭提醒服务)|
 |Version: 2.1|支持查询两地间路程距离公里数和预估行驶时间|
+|Version: 3.0|支持查询莆田系医院|
 
 ### OpenApi
 

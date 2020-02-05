@@ -62,16 +62,15 @@ public class InsertDatate {
             e.printStackTrace();
 
         }
-
-
     }
 
     public static void main(String[] args) throws Exception {
 //        InsertDatate.setInsertWeatherInfo("2019-12-28", "多云", "13", "7");
 //        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式
 //        String SystemTime = simpleDateFormat.format(new Date());//new Date()为获取当前系统时间
+        File file=new File("/Users/zhangyibin/Downloads/Untitled-1.sql");
+        InsertDatate.setCityCoding(file);
+
 
     }
-
-
 }
