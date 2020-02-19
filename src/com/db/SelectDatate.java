@@ -6,6 +6,8 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.HashMap;
 
 public class SelectDatate {
 
@@ -38,7 +40,7 @@ public class SelectDatate {
     }
 
     // 莆田系医院查询
-    public static List<String> setHospital(String area,String hospital) {
+    public static List<String> setHospital(String area, String hospital) {
         List<String> list = new ArrayList<String>();
         try {
             Class.forName("org.sqlite.JDBC");
@@ -46,7 +48,7 @@ public class SelectDatate {
             Connection connection = DriverManager.getConnection("jdbc:sqlite:ethan.db");
             Statement statement = connection.createStatement();
 
-            String sql = "select * from tb_Hospital where hospitalName like '%" + hospital + "%' and area like '%"+ area + "%'"; // 通知信息内容表
+            String sql = "select * from tb_Hospital where hospitalName like '%" + hospital + "%' and area like '%" + area + "%'"; // 通知信息内容表
             ResultSet resultSet = statement.executeQuery(sql);
             while (resultSet.next()) {
                 String hospitalArea = resultSet.getString("area");
@@ -66,7 +68,48 @@ public class SelectDatate {
             e.printStackTrace();
 
         }
+        return list;
 
+    }
+
+    // 垃圾分类查询
+    public static List<String> setGarbageClassification(String garbageName) {
+        List<String> list = new ArrayList<String>();
+        /**
+         * {"_id":"1","name":"可回收物"}
+         * {"_id":"2","name":"有害垃圾"}
+         * {"_id":"3","name":"湿垃圾"}
+         * {"_id":"4","name":"干垃圾"}
+         */
+        Map<String, String> map = new HashMap<String, String>();
+        map.put("1 ", "可回收物");
+        map.put("2 ", "有害垃圾");
+        map.put("3 ", "湿垃圾");
+        map.put("4 ", "干垃圾");
+        try {
+            Class.forName("org.sqlite.JDBC");
+            // 连接到数据库
+            Connection connection = DriverManager.getConnection("jdbc:sqlite:ethan.db");
+            Statement statement = connection.createStatement();
+
+            String sql = "select * from tb_Garbage where name like '%" + garbageName + "%' "; // 通知信息内容表
+            ResultSet resultSet = statement.executeQuery(sql);
+            while (resultSet.next()) {
+                String name = resultSet.getString("name");
+                list.add(name);
+                String sortId = resultSet.getString("sortId");
+                list.add(map.get(sortId));
+
+            }
+            resultSet.close();
+            statement.close();
+            connection.close();
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+
+        }
         return list;
 
     }
@@ -74,7 +117,7 @@ public class SelectDatate {
 
     public static void main(String[] args) throws Exception {
 //        System.out.println(SelectDatate.setcityName("嘉兴"));
-        System.out.println(SelectDatate.setHospital("上海",""));
+        System.out.println(SelectDatate.setGarbageClassification("八宝粥"));
 
     }
 }
