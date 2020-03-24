@@ -6,16 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="316c474c-552f-49c7-8260-f9c53204b1af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/garbage/GarbageClassification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ethan.db" beforeDir="false" afterPath="$PROJECT_DIR$/ethan.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ethan/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ethan/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ethan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ethan/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ethan/ethan.db" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ethan/ethan.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/db/CreaDatateSheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db/CreaDatateSheet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/db/SelectDatate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db/SelectDatate.java" afterDir="false" />
-    </list>
+    <list default="true" id="316c474c-552f-49c7-8260-f9c53204b1af" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +43,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
-  <component name="RunManager" selected="Application.SelectDatate">
+  <component name="RunManager" selected="Application.Dialogue">
     <configuration name="CreaDatateSheet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.com.db.CreaDatateSheet" />
       <module name="ethan" />
@@ -120,10 +111,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dialogue" />
         <item itemvalue="Application.SelectDatate" />
         <item itemvalue="Application.InsertDatate" />
         <item itemvalue="Application.CreaDatateSheet" />
-        <item itemvalue="Application.Dialogue" />
         <item itemvalue="Application.Distance" />
       </list>
     </recent_temporary>
@@ -179,26 +170,26 @@
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state x="100" y="123" width="1720" height="778" key="DiffContextDialog/0.23.1920.978@0.23.1920.978" timestamp="1580606600808" />
-    <state width="1878" height="412" key="GridCell.Tab.0.bottom" timestamp="1582106014053">
+    <state width="1878" height="412" key="GridCell.Tab.0.bottom" timestamp="1582108192277">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state width="1398" height="323" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1580717816754" />
-    <state width="1878" height="412" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1582106014053" />
-    <state width="1878" height="412" key="GridCell.Tab.0.center" timestamp="1582106014051">
+    <state width="1878" height="412" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1582108192277" />
+    <state width="1878" height="412" key="GridCell.Tab.0.center" timestamp="1582108192276">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state width="1398" height="323" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1580717816752" />
-    <state width="1878" height="412" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1582106014051" />
-    <state width="1878" height="412" key="GridCell.Tab.0.left" timestamp="1582106014050">
+    <state width="1878" height="412" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1582108192276" />
+    <state width="1878" height="412" key="GridCell.Tab.0.left" timestamp="1582108192275">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state width="1398" height="323" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1580717816751" />
-    <state width="1878" height="412" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1582106014050" />
-    <state width="1878" height="412" key="GridCell.Tab.0.right" timestamp="1582106014052">
+    <state width="1878" height="412" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1582108192275" />
+    <state width="1878" height="412" key="GridCell.Tab.0.right" timestamp="1582108192276">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state width="1398" height="323" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1580717816753" />
-    <state width="1878" height="412" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1582106014052" />
+    <state width="1878" height="412" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1582108192276" />
     <state width="1878" height="412" key="GridCell.Tab.1.bottom" timestamp="1580879968149">
       <screen x="0" y="23" width="1920" height="978" />
     </state>

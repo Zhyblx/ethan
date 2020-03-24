@@ -36,7 +36,9 @@ INSERT INTO tb_Garbage VALUES (null,'艾草','3');
 INSERT INTO tb_Garbage VALUES (null,'棒棒糖','3');
 select * from tb_Garbage;
 
-select count(*) from tb_Garbage;]]></console>
+select count(*) from tb_Garbage;
+
+select * from tb_Garbage where name like '%口罩%';]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">

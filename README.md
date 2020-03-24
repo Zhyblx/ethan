@@ -26,6 +26,7 @@ Ethan：Do not waste it,Do not waste your life.（那就好好珍惜它，别浪
 |Version: 2.1|支持查询两地间路程距离公里数和预估行驶时间|
 |Version: 3.0|支持查询莆田系医院|
 |Version: 4.0|支持查询垃圾分类|
+|Version: 4.1|修改了垃圾分类的Bug|
 
 ### OpenApi
 

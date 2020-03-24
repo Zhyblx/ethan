@@ -96,10 +96,15 @@ public class SelectDatate {
             ResultSet resultSet = statement.executeQuery(sql);
             while (resultSet.next()) {
                 String name = resultSet.getString("name");
-                list.add(name);
-                String sortId = resultSet.getString("sortId");
-                list.add(map.get(sortId));
+//                System.out.println("1---"+name);
+//                System.out.println("2---"+garbageName);
+//                System.out.println(name.equals(garbageName+" "));
+                if(name.equals(garbageName+" ")){
+                    list.add(name);
+                    String sortId = resultSet.getString("sortId");
+                    list.add(map.get(sortId));
 
+                }
             }
             resultSet.close();
             statement.close();
