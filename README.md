@@ -27,6 +27,7 @@ Ethan：Do not waste it,Do not waste your life.（那就好好珍惜它，别浪
 |Version: 3.0|支持查询莆田系医院|
 |Version: 4.0|支持查询垃圾分类|
 |Version: 4.1|修改了垃圾分类的Bug|
+|Version: 4.2|新增杭州天气的快捷查询|
 
 ### OpenApi
 

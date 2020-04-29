@@ -6,7 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="316c474c-552f-49c7-8260-f9c53204b1af" name="Default Changelist" comment="" />
+    <list default="true" id="316c474c-552f-49c7-8260-f9c53204b1af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ethan/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ethan/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ethan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ethan/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ethan/META-INF/ethan.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ethan/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ethan/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/service/Dialogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/service/Dialogue.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,17 +30,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="$PROJECT_DIR$/.idea" />
-      </set>
-    </option>
-  </component>
   <component name="ProjectId" id="1XBbHRDyfNZjg393GsrDTFb2FD7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -43,7 +43,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
-  <component name="RunManager" selected="Application.Dialogue">
+  <component name="RunManager" selected="应用程序.Dialogue">
     <configuration name="CreaDatateSheet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.com.db.CreaDatateSheet" />
       <module name="ethan" />
@@ -111,11 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Dialogue" />
-        <item itemvalue="Application.SelectDatate" />
-        <item itemvalue="Application.InsertDatate" />
-        <item itemvalue="Application.CreaDatateSheet" />
-        <item itemvalue="Application.Distance" />
+        <item itemvalue="应用程序.Dialogue" />
+        <item itemvalue="应用程序.CreaDatateSheet" />
       </list>
     </recent_temporary>
   </component>
@@ -158,37 +155,47 @@
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state x="698" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.978@0.23.1920.978" timestamp="1580550745033" />
-    <state x="498" y="175" key="DBNavigator.ProjectSettingsDialog" timestamp="1580555480893">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state x="374" y="148" key="DBNavigator.ProjectSettingsDialog" timestamp="1585034471614">
+      <screen x="0" y="23" width="1440" height="802" />
     </state>
+    <state x="374" y="148" key="DBNavigator.ProjectSettingsDialog/0.23.1440.802/1440.23.1920.1057@0.23.1440.802" timestamp="1585034471614" />
     <state x="498" y="175" key="DBNavigator.ProjectSettingsDialog/0.23.1920.978@0.23.1920.978" timestamp="1580555480893" />
-    <state x="733" y="393" key="DBNavigator.ResultSetRecordViewerDialog" timestamp="1582106012051">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state x="550" y="326" key="DBNavigator.ResultSetRecordViewerDialog" timestamp="1585034657022">
+      <screen x="0" y="23" width="1440" height="802" />
     </state>
+    <state x="550" y="326" key="DBNavigator.ResultSetRecordViewerDialog/0.23.1440.802/1440.23.1920.1057@0.23.1440.802" timestamp="1585034657022" />
     <state x="733" y="393" key="DBNavigator.ResultSetRecordViewerDialog/0.23.1920.978@0.23.1920.978" timestamp="1582106012051" />
     <state x="100" y="123" width="1720" height="778" key="DiffContextDialog" timestamp="1580606600808">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state x="100" y="123" width="1720" height="778" key="DiffContextDialog/0.23.1920.978@0.23.1920.978" timestamp="1580606600808" />
-    <state width="1878" height="412" key="GridCell.Tab.0.bottom" timestamp="1582108192277">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state width="1398" height="324" key="GridCell.Tab.0.bottom" timestamp="1588153645552">
+      <screen x="0" y="23" width="1440" height="802" />
     </state>
     <state width="1398" height="323" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1580717816754" />
+    <state width="1398" height="324" key="GridCell.Tab.0.bottom/0.23.1440.802/1440.23.1920.1057@0.23.1440.802" timestamp="1588153645552" />
+    <state width="1398" height="324" key="GridCell.Tab.0.bottom/0.23.1440.802/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588151642839" />
     <state width="1878" height="412" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1582108192277" />
-    <state width="1878" height="412" key="GridCell.Tab.0.center" timestamp="1582108192276">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state width="1398" height="324" key="GridCell.Tab.0.center" timestamp="1588153645551">
+      <screen x="0" y="23" width="1440" height="802" />
     </state>
     <state width="1398" height="323" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1580717816752" />
+    <state width="1398" height="324" key="GridCell.Tab.0.center/0.23.1440.802/1440.23.1920.1057@0.23.1440.802" timestamp="1588153645551" />
+    <state width="1398" height="324" key="GridCell.Tab.0.center/0.23.1440.802/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588151642838" />
     <state width="1878" height="412" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1582108192276" />
-    <state width="1878" height="412" key="GridCell.Tab.0.left" timestamp="1582108192275">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state width="1398" height="324" key="GridCell.Tab.0.left" timestamp="1588153645551">
+      <screen x="0" y="23" width="1440" height="802" />
     </state>
     <state width="1398" height="323" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1580717816751" />
+    <state width="1398" height="324" key="GridCell.Tab.0.left/0.23.1440.802/1440.23.1920.1057@0.23.1440.802" timestamp="1588153645551" />
+    <state width="1398" height="324" key="GridCell.Tab.0.left/0.23.1440.802/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588151642837" />
     <state width="1878" height="412" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1582108192275" />
-    <state width="1878" height="412" key="GridCell.Tab.0.right" timestamp="1582108192276">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state width="1398" height="324" key="GridCell.Tab.0.right" timestamp="1588153645552">
+      <screen x="0" y="23" width="1440" height="802" />
     </state>
     <state width="1398" height="323" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1580717816753" />
+    <state width="1398" height="324" key="GridCell.Tab.0.right/0.23.1440.802/1440.23.1920.1057@0.23.1440.802" timestamp="1588153645552" />
+    <state width="1398" height="324" key="GridCell.Tab.0.right/0.23.1440.802/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588151642838" />
     <state width="1878" height="412" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1582108192276" />
     <state width="1878" height="412" key="GridCell.Tab.1.bottom" timestamp="1580879968149">
       <screen x="0" y="23" width="1920" height="978" />
@@ -210,10 +217,12 @@
     </state>
     <state width="1398" height="323" key="GridCell.Tab.1.right/0.23.1440.798@0.23.1440.798" timestamp="1580717816756" />
     <state width="1878" height="412" key="GridCell.Tab.1.right/0.23.1920.978@0.23.1920.978" timestamp="1580879968148" />
-    <state x="424" y="152" key="SettingsEditor" timestamp="1582105085236">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state x="1864" y="23" key="SettingsEditor" timestamp="1588151289120">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="352" y="23" key="SettingsEditor/0.23.1440.798@0.23.1440.798" timestamp="1580629172039" />
+    <state x="318" y="23" key="SettingsEditor/0.23.1440.802/1440.23.1920.1057@0.23.1440.802" timestamp="1585035130354" />
+    <state x="1864" y="23" key="SettingsEditor/0.23.1440.802/1440.23.1920.1057@1440.23.1920.1057" timestamp="1588151289120" />
     <state x="424" y="152" key="SettingsEditor/0.23.1920.978@0.23.1920.978" timestamp="1582105085236" />
     <state x="100" y="123" width="1720" height="778" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1580522467148">
       <screen x="0" y="23" width="1920" height="978" />

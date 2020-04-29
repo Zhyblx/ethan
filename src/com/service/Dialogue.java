@@ -25,6 +25,7 @@ public class Dialogue {
             String serviceId_4 = "4"; // 路程查询
             String serviceId_5 = "5"; // 是否莆田系医院
             String serviceId_6 = "6"; // 垃圾分类
+            String serviceId_7 = "7"; // 直接查询杭州天气
 
             while (true) {
                 System.out.println("请选择服务编号：" + "\r\n"
@@ -33,7 +34,8 @@ public class Dialogue {
                         + "关闭提醒请按 3；"
                         + "路程查询请按 4；"
                         + "莆田系医院查询请按 5；"
-                        + "垃圾分类查询 6；");
+                        + "垃圾分类查询 6；"
+                        + "杭州天气查询 7；");
                 String inputDatate = new Scanner(System.in).nextLine();
 
                 if (serviceId_1.equals(inputDatate)) {
@@ -129,6 +131,10 @@ public class Dialogue {
 
                     }
                     System.out.println("");
+
+                } else if (serviceId_7.equals(inputDatate)) {
+                    String info = WeatherInfo.getWeatherInfo("杭州市", "330100");
+                    System.out.println(info);
 
                 }
             }
