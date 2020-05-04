@@ -7,8 +7,11 @@ package src.com.service;
 import src.com.db.SelectDatate;
 import src.com.gaode.Distance;
 import src.com.gaode.WeatherInfo;
+import src.com.respberrypi.GPIOController;
 import src.com.weixin.TimingDevice;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -16,7 +19,9 @@ import java.util.Scanner;
 public class Dialogue {
 
     public static void main(String[] args) {
+        System.out.println("Version: 5.0");
         Thread thread = null;
+        GPIOController gpioController = new GPIOController();
 
         try {
             String serviceId_1 = "1"; // 天气查询
@@ -26,6 +31,11 @@ public class Dialogue {
             String serviceId_5 = "5"; // 是否莆田系医院
             String serviceId_6 = "6"; // 垃圾分类
             String serviceId_7 = "7"; // 直接查询杭州天气
+            String serviceId_8 = "8"; // 打开电源
+            String serviceId_9 = "9"; // 关闭电源
+            String serviceId_10 = "10"; //设置定时开关
+            String serviceId_11 = "11"; //关闭程序
+
 
             while (true) {
                 System.out.println("请选择服务编号：" + "\r\n"
@@ -35,7 +45,13 @@ public class Dialogue {
                         + "路程查询请按 4；"
                         + "莆田系医院查询请按 5；"
                         + "垃圾分类查询 6；"
-                        + "杭州天气查询 7；");
+                        + "杭州天气查询 7；"
+                        + "打开电源请按 8;"
+                        + "关闭电源请按 9;"
+                        + "设置定时开关请按 10;"
+                        + "关闭程序 11;"
+
+                );
                 String inputDatate = new Scanner(System.in).nextLine();
 
                 if (serviceId_1.equals(inputDatate)) {
@@ -136,9 +152,60 @@ public class Dialogue {
                     String info = WeatherInfo.getWeatherInfo("杭州市", "330100");
                     System.out.println(info);
 
+                } else if (serviceId_8.equals(inputDatate)) {
+                    System.out.println("电源已打开…");
+                    gpioController.getOpenGPIO();
+
+                } else if (serviceId_9.equals(inputDatate)) {
+                    System.out.println("电源已关闭…");
+                    gpioController.getShutDownGPIO();
+
+                } else if (serviceId_10.equals(inputDatate)) {
+                    System.out.println("请设置开始时间(格式：20:19)");
+                    String setTime = new Scanner(System.in).nextLine();
+                    System.out.println("请设置执行时间(单位：分)");
+                    int setMinute = Integer.valueOf(new Scanner(System.in).nextLine());
+                    SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm");//设置日期时间；格式："20:19"
+                    while (true) {
+                        try {
+                            Thread.sleep(1000);
+
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+
+                        }
+                        String systemTime = simpleDateFormat.format(new Date());//new Date()为获取当前系统时间
+                        String strTimer = String.valueOf(systemTime);
+                        if (strTimer.equals(setTime)) {
+                            System.out.println("定时开关设置成功！");
+                            gpioController.getOpenGPIO();// 打开电源
+                            int seconds = setMinute * 60000;
+                            for (int i = 0; i <= seconds; i = i + 1000) {
+                                try {
+                                    Thread.sleep(1000);
+
+                                } catch (InterruptedException e) {
+                                    e.printStackTrace();
+
+                                }
+                                if (i == seconds) {
+                                    System.out.println("定时开关执行结束！");
+                                    gpioController.getShutDownGPIO();//关闭电源
+                                    break; //跳出内层循环
+
+                                }
+                            }
+                            break; //跳出外层循环
+                        }
+                    }
+
+                } else if (serviceId_11.equals(inputDatate)) {
+                    gpioController.getShutDownGPIO();
+                    System.out.println("程序已关闭…");
+                    return;
+
                 }
             }
-
         } catch (Exception e) {
             System.out.println("系统关闭！");
 

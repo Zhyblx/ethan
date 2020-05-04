@@ -28,6 +28,7 @@ Ethan：Do not waste it,Do not waste your life.（那就好好珍惜它，别浪
 |Version: 4.0|支持查询垃圾分类|
 |Version: 4.1|修改了垃圾分类的Bug|
 |Version: 4.2|新增杭州天气的快捷查询|
+|Version: 5.0|增加硬件控制功能|
 
 ### OpenApi
 
@@ -81,6 +82,11 @@ Ethan：Do not waste it,Do not waste your life.（那就好好珍惜它，别浪
 |Class|描述 |备注|
 |---|---|---|
 |Dialogue|Ethan机器人的服务能力||
+
+###### Package src.com.respberrypi<br>
+|Class|描述 |备注|
+|---|---|---|
+|GPIOController|控制电源开关||
 
 
 
