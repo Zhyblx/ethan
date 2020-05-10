@@ -2,9 +2,6 @@ package src.com.respberrypi;
 
 import com.pi4j.io.gpio.*;
 
-import java.util.Scanner;
-
-
 /**
  * GPIOController(控制器)
  * 功能：控制电源开关
@@ -12,10 +9,10 @@ import java.util.Scanner;
 
 public class GPIOController {
     //GPIO控制器接口。此接口描述了通过GPIO进行的所有操作
-    final GpioController gpioController = GpioFactory.getInstance();
+    private static GpioController gpioController = GpioFactory.getInstance();
 
     //GPIO控制树莓派的数字针脚
-    final GpioPinDigitalOutput gpioPinDigitalOutput =
+    private static GpioPinDigitalOutput gpioPinDigitalOutput =
             //provisionDigitalOutputPin(RaspiPin.GPIO_28, "led", PinState.LOW); 是指初始化为低电平
             //gpioController.provisionDigitalOutputPin(RaspiPin.GPIO_28, "led", PinState.LOW);
             gpioController.provisionDigitalOutputPin(RaspiPin.GPIO_28, "GPIOController");
@@ -24,7 +21,7 @@ public class GPIOController {
      * 控制器：开启
      * 设置低电平
      */
-    public void getOpenGPIO() {
+    public static void getOpenGPIO() {
         gpioPinDigitalOutput.low();//低电平
 //        gpioController.unprovisionPin(gpioPinDigitalOutput);
 
@@ -35,7 +32,7 @@ public class GPIOController {
      * 设置高电平
      *
      */
-    public void getShutDownGPIO() {
+    public static void getShutDownGPIO() {
         gpioPinDigitalOutput.high();
 //        gpioController.unprovisionPin(gpioPinDigitalOutput);
 

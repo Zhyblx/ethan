@@ -29,6 +29,7 @@ Ethan：Do not waste it,Do not waste your life.（那就好好珍惜它，别浪
 |Version: 4.1|修改了垃圾分类的Bug|
 |Version: 4.2|新增杭州天气的快捷查询|
 |Version: 5.0|增加硬件控制功能|
+|Version: 5.1|完善线程控制硬件|
 
 ### OpenApi
 
@@ -87,6 +88,7 @@ Ethan：Do not waste it,Do not waste your life.（那就好好珍惜它，别浪
 |Class|描述 |备注|
 |---|---|---|
 |GPIOController|控制电源开关||
+|GPIOTimer|电源定时控制器||
 
 
 
